@@ -1,4 +1,5 @@
 %h1 Articles 
+%span= link_to('articles', new_article_path)
 %ul 
   - @articles.each do |article|
     %li 
